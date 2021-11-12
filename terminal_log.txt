@@ -1,0 +1,471 @@
+(base) PS D:\iitd_files\Semester_3\CyberPhysicalSystems\project> python.exe .\alexa.py
+{'root': 'root123', 'sanket': 'sanket', 'user1': 'abcd', 'user2': 'abcd'}
+Enter Your Username : root
+Enter Your Password :
+User Verified : root
+Adding new BULB
+----------------
+Device Name    : hall_bulb
+Device Type    : BULB
+Device ID      : 243
+Device State   : 1
+Device Value   : 100.000000
+----------------
+Adding new FAN
+----------------
+Device Name    : hall_fan
+Device Type    : FAN
+Device ID      : 777
+Device State   : 0
+Device Value   : 0.000000
+----------------
+(base) PS D:\iitd_files\Semester_3\CyberPhysicalSystems\project> python.exe .\alexa.py
+{'root': 'root123', 'sanket': 'sanket', 'user1': 'abcd', 'user2': 'abcd'}
+Enter Your Username : root
+Enter Your Password :
+User Verified : root
+DISPLAYING REGISTERED ACTIVE DEVICES:
+{'hall_bulb': ['BULB', 243, 1, 100.0], 'hall_fan': ['FAN', 777, 0, 0.0]}
+OFFF
+>>>>>>>> {'device': 'BULB', 'id': 243, 'action': 0, 'curr_state': 100.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 0, 'id': 243}
+----------------
+Device Name    : hall_bulb
+Device Type    : BULB
+Device ID      : 243
+Device State   : 0
+Device Value   : 0.000000
+----------------
+ONN
+>>>>>>>> {'device': 'BULB', 'id': 243, 'action': 1, 'curr_state': 100.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 100.0, 'id': 243}
+----------------
+Device Name    : hall_bulb
+Device Type    : BULB
+Device ID      : 243
+Device State   : 1
+Device Value   : 100.000000
+----------------
+INput : {'device': 'BULB', 'id': 243, 'action': 3, 'curr_state': 100.0}
+DECRRR
+>>>>>>>> {'device': 'BULB', 'id': 243, 'action': 3, 'curr_state': 100.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 75.0, 'id': 243}
+----------------
+Device Name    : hall_bulb
+Device Type    : BULB
+Device ID      : 243
+Device State   : 1
+Device Value   : 75.000000
+----------------
+INCR
+>>>>>>>> {'device': 'BULB', 'id': 243, 'action': 2, 'curr_state': 100.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 100, 'id': 243}
+----------------
+Device Name    : hall_bulb
+Device Type    : BULB
+Device ID      : 243
+Device State   : 1
+Device Value   : 100.000000
+----------------
+ONN
+>>>>>>>> {'device': 'FAN', 'id': 777, 'action': 1, 'curr_state': 0.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 0.0, 'id': 777}
+----------------
+Device Name    : hall_fan
+Device Type    : FAN
+Device ID      : 777
+Device State   : 1
+Device Value   : 0.000000
+----------------
+INCR
+>>>>>>>> {'device': 'FAN', 'id': 777, 'action': 2, 'curr_state': 0.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 25.0, 'id': 777}
+----------------
+Device Name    : hall_fan
+Device Type    : FAN
+Device ID      : 777
+Device State   : 1
+Device Value   : 25.000000
+----------------
+OFFF
+>>>>>>>> {'device': 'FAN', 'id': 777, 'action': 0, 'curr_state': 0.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 0, 'id': 777}
+----------------
+Device Name    : hall_fan
+Device Type    : FAN
+Device ID      : 777
+Device State   : 0
+Device Value   : 0.000000
+----------------
+ONN
+>>>>>>>> {'device': 'FAN', 'id': 777, 'action': 1, 'curr_state': 0.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 0.0, 'id': 777}
+----------------
+Device Name    : hall_fan
+Device Type    : FAN
+Device ID      : 777
+Device State   : 1
+Device Value   : 0.000000
+----------------
+INCR
+>>>>>>>> {'device': 'FAN', 'id': 777, 'action': 2, 'curr_state': 0.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 25.0, 'id': 777}
+----------------
+Device Name    : hall_fan
+Device Type    : FAN
+Device ID      : 777
+Device State   : 1
+Device Value   : 25.000000
+----------------
+INput : {'device': 'FAN', 'id': 777, 'action': 3, 'curr_state': 0.0}
+DECRRR
+>>>>>>>> {'device': 'FAN', 'id': 777, 'action': 3, 'curr_state': 0.0}
+<<<<<<<<<< {'result_status': 1, 'result_state': 0, 'id': 777}
+----------------
+Device Name    : hall_fan
+Device Type    : FAN
+Device ID      : 777
+Device State   : 1
+Device Value   : 0.000000
+----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(base) PS D:\iitd_files\Semester_3\CyberPhysicalSystems\project> python.exe .\alexa.py
+
+ The User Credentials database Entries :
+------------------------
+User Name is :  root
+Password is :  root123
+------------------------
+
+Enter Your Username : root
+Enter Your Password :
+User Verified : root
+Adding new BULB
+
+Device Suucessfully Added
+
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : b1
+Device Type    : BULB
+Device ID      : 350
+Device State   : 1
+Device Value   : 100.000000
+----------------
+
+
+Adding new FAN
+
+Device Suucessfully Added
+
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : b1
+Device Type    : BULB
+Device ID      : 350
+Device State   : 1
+Device Value   : 100.000000
+----------------
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 0
+Device Value   : 0.000000
+----------------
+
+
+(base) PS D:\iitd_files\Semester_3\CyberPhysicalSystems\project> python.exe .\alexa.py
+Traceback (most recent call last):
+  File ".\alexa.py", line 57, in <module>
+    credential_cursor.execute('CREATE TABLE sql_users_credentials_db (username VARCHAR, password VARCHAR)')
+sqlite3.OperationalError: table sql_users_credentials_db already exists
+(base) PS D:\iitd_files\Semester_3\CyberPhysicalSystems\project> python.exe .\alexa.py
+
+ The User Credentials database Entries :
+------------------------
+User Name is :  root
+Password is :  root123
+------------------------
+
+Enter Your Username : root
+Enter Your Password :
+User Verified : root
+Adding new AC
+
+Device Suucessfully Added
+
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : b1
+Device Type    : BULB
+Device ID      : 350
+Device State   : 1
+Device Value   : 100.000000
+----------------
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : ac1
+Device Type    : AC
+Device ID      : 294
+Device State   : 1
+Device Value   : 50.000000
+----------------
+
+
+Deleting Device >>>
+
+Device deleted: ac1
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : b1
+Device Type    : BULB
+Device ID      : 350
+Device State   : 1
+Device Value   : 100.000000
+----------------
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 0
+Device Value   : 0.000000
+----------------
+
+
+Deleting Device >>>
+
+Device deleted: b1
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 0
+Device Value   : 0.000000
+----------------
+
+
+(base) PS D:\iitd_files\Semester_3\CyberPhysicalSystems\project> python.exe .\alexa.py
+
+ The User Credentials database Entries :
+------------------------
+User Name is :  root
+Password is :  root123
+------------------------
+
+Enter Your Username : root
+Enter Your Password :
+User Verified : root
+ONN
+L_INPUT  ::  {'device': 'FAN', 'id': 670, 'action': 1, 'curr_state': 0.0, 'send_secret': 112233}
+L_OUTPUT ::  {'result_status': 1, 'result_state': 0.0, 'id': 670}
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 1
+Device Value   : 0.000000
+----------------
+
+
+INCR
+L_INPUT  ::  {'device': 'FAN', 'id': 670, 'action': 2, 'curr_state': 0.0, 'send_secret': 112233}
+L_OUTPUT ::  {'result_status': 1, 'result_state': 25.0, 'id': 670}
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 1
+Device Value   : 25.000000
+----------------
+
+
+INput : {'device': 'FAN', 'id': 670, 'action': 3, 'curr_state': 0.0, 'send_secret': 112233}
+DECRRR
+L_INPUT  ::  {'device': 'FAN', 'id': 670, 'action': 3, 'curr_state': 0.0, 'send_secret': 112233}
+L_OUTPUT ::  {'result_status': 1, 'result_state': 0, 'id': 670}
+Device Database current entries::
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 0
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 1
+Device Value   : 0.000000
+----------------
+
+
+ONN
+L_INPUT  ::  {'device': 'BULB', 'id': 10, 'action': 1, 'curr_state': 0.0, 'send_secret': 112233}
+L_OUTPUT ::  {'result_status': 1, 'result_state': 0.0, 'id': 10}
+Device Database current entries::
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 1
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 1
+Device Value   : 0.000000
+----------------
+
+
+INCR
+L_INPUT  ::  {'device': 'BULB', 'id': 10, 'action': 2, 'curr_state': 0.0, 'send_secret': 112233}
+L_OUTPUT ::  {'result_status': 1, 'result_state': 25.0, 'id': 10}
+Device Database current entries::
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 1
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 1
+Device Value   : 25.000000
+----------------
+
+
+INCR
+L_INPUT  ::  {'device': 'BULB', 'id': 10, 'action': 2, 'curr_state': 0.0, 'send_secret': 112233}
+L_OUTPUT ::  {'result_status': 1, 'result_state': 25.0, 'id': 10}
+Device Database current entries::
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 1
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 1
+Device Value   : 25.000000
+----------------
+
+
+INput : {'device': 'BULB', 'id': 10, 'action': 3, 'curr_state': 0.0, 'send_secret': 112233}
+DECRRR
+L_INPUT  ::  {'device': 'BULB', 'id': 10, 'action': 3, 'curr_state': 0.0, 'send_secret': 112233}
+L_OUTPUT ::  {'result_status': 1, 'result_state': 0, 'id': 10}
+Device Database current entries::
+----------------
+Device Name    : f1
+Device Type    : FAN
+Device ID      : 670
+Device State   : 1
+Device Value   : 0.000000
+----------------
+----------------
+Device Name    : dining_bulb
+Device Type    : BULB
+Device ID      : 10
+Device State   : 1
+Device Value   : 0.000000
+----------------
+
+
+(base) PS D:\iitd_files\Semester_3\CyberPhysicalSystems\project>
